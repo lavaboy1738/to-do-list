@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #6A5058;
+}
+
+body{
+    background-image: url(https://www.tokkoro.com/picsup/2618633-ocean-4k-hd-wallpaper-desktop.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    padding-top: 30px;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+input{
+    display: block;
+    border-radius: 10px;
+    width: 250px;
+    margin: 20px auto;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #6A5058;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.2s all ease;
+}
+
+input:focus{
+    transform: scale(1.1);
+    outline: none;
+    transition: 0.2s all ease;
+}
+
+.wrapper{
+    border-radius: 15px;
+    margin: 100px auto;
+    width: 300px;
+    min-height: 150px;
+    padding-bottom: 10px;
+}
+
+ul{
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.checkbox{
+    margin: 10px 5px;
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    transition: 0.2s all ease
+}
+
+.checkbox:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.checkbox:active{
+    transform: scale(0.7);
+}
+
+li{
+    padding-top: 10px;
+    border-bottom: 2px solid #6A5058;
+    transition: 1s all ease;
+    position: relative;
+}
+
+
+
+p {
+    display: inline;
+    position: relative;
+    padding-left: 10px;
+    font-size: 22px;
+    top: -3px;
+    transition: 1s all ease;
+}
+
+
+.wrapper{
+    background-color: #EABFCB;
+}
+
+.checked {
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+footer{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer>a,i{
+    color:#EABFCB;
+}
+
+button {
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    outline: none;
+    font-size: 2em;
+    transition: 0.3s all ease
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
